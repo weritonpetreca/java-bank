@@ -1,7 +1,7 @@
 package com.petreca.exceptions;
 
-public class AccountInUseException extends RuntimeException {
-    public AccountInUseException(String message) {
+public class AccountWithInvestmentException extends RuntimeException {
+    public AccountWithInvestmentException(String message) {
         super(message);
     }
 }

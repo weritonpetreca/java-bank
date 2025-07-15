@@ -1,11 +1,12 @@
 package com.petreca.model;
 
-import org.w3c.dom.stylesheets.LinkStyle;
+import lombok.Getter;
 
 import java.util.List;
 
 import static com.petreca.model.BankService.ACCOUNT;
 
+@Getter
 public class AccountWallet extends Wallet{
 
     private final List<String> pix;

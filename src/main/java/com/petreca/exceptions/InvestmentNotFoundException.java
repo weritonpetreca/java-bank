@@ -1,7 +1,7 @@
 package com.petreca.exceptions;
 
-public class AccountNotFoundException extends RuntimeException {
-    public AccountNotFoundException(String message) {
+public class InvestmentNotFoundException extends RuntimeException {
+    public InvestmentNotFoundException(String message) {
         super(message);
     }
 }

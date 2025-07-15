@@ -1,7 +1,7 @@
 package com.petreca.exceptions;
 
-public class AccountNotFoundException extends RuntimeException {
-    public AccountNotFoundException(String message) {
+public class PixInUseException extends RuntimeException {
+    public PixInUseException(String message) {
         super(message);
     }
 }
